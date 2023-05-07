@@ -4,3 +4,6 @@
 [submodule "bramses-highly-opinionated-vault-2023"]
 	path = bramses-highly-opinionated-vault-2023
 	url = https://github.com/bramses/bramses-highly-opinionated-vault-2023
+[submodule "chatgpt-md"]
+	path = chatgpt-md
+	url = https://github.com/bramses/chatgpt-md.git
