@@ -1,0 +1,3 @@
+[submodule "obsidian-ghost-publish"]
+	path = obsidian-ghost-publish
+	url = https://github.com/bramses/obsidian-ghost-publish.git
