@@ -10,3 +10,6 @@
 [submodule "summarize-with-gpt3-obsidian"]
 	path = summarize-with-gpt3-obsidian
 	url = https://github.com/bramses/summarize-with-gpt3-obsidian.git
+[submodule "moon"]
+	path = moon
+	url = https://github.com/bramses/moon
