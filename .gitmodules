@@ -37,3 +37,6 @@
 [submodule "process-notes-alfred"]
 	path = process-notes-alfred
 	url = https://github.com/bramses/process-notes-alfred.git
+[submodule "spotify-recently-played-markdown-list"]
+	path = spotify-recently-played-markdown-list
+	url = https://github.com/bramses/spotify-recently-played-markdown-list
