@@ -25,3 +25,6 @@
 [submodule "i-aint-reading-all-that"]
 	path = i-aint-reading-all-that
 	url = https://github.com/bramses/i-aint-reading-all-that.git
+[submodule "youtube-assets-from-video"]
+	path = youtube-assets-from-video
+	url = https://github.com/bramses/youtube-assets-from-video.git
