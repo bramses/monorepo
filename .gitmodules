@@ -16,3 +16,6 @@
 [submodule "chatgpt-export"]
 	path = chatgpt-export
 	url = https://github.com/bramses/chatgpt-export.git
+[submodule "eleven-labs-obsidian"]
+	path = eleven-labs-obsidian
+	url = https://github.com/bramses/eleven-labs-obsidian.git
