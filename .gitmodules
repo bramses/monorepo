@@ -22,3 +22,6 @@
 [submodule "switchboard"]
 	path = switchboard
 	url = https://github.com/bramses/switchboard.git
+[submodule "i-aint-reading-all-that"]
+	path = i-aint-reading-all-that
+	url = https://github.com/bramses/i-aint-reading-all-that.git
