@@ -34,3 +34,6 @@
 [submodule "ytclip-10s"]
 	path = ytclip-10s
 	url = https://github.com/bramses/ytclip-10s.git
+[submodule "process-notes-alfred"]
+	path = process-notes-alfred
+	url = https://github.com/bramses/process-notes-alfred.git
