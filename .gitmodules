@@ -19,3 +19,6 @@
 [submodule "eleven-labs-obsidian"]
 	path = eleven-labs-obsidian
 	url = https://github.com/bramses/eleven-labs-obsidian.git
+[submodule "switchboard"]
+	path = switchboard
+	url = https://github.com/bramses/switchboard.git
