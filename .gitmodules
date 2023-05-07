@@ -28,3 +28,6 @@
 [submodule "youtube-assets-from-video"]
 	path = youtube-assets-from-video
 	url = https://github.com/bramses/youtube-assets-from-video.git
+[submodule "query-zettel-embeddings-obsidian"]
+	path = query-zettel-embeddings-obsidian
+	url = https://github.com/bramses/query-zettel-embeddings.git
