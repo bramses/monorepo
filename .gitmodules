@@ -1,3 +1,6 @@
 [submodule "obsidian-ghost-publish"]
 	path = obsidian-ghost-publish
 	url = https://github.com/bramses/obsidian-ghost-publish.git
+[submodule "bramses-highly-opinionated-vault-2023"]
+	path = bramses-highly-opinionated-vault-2023
+	url = https://github.com/bramses/bramses-highly-opinionated-vault-2023
