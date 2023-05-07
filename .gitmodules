@@ -13,3 +13,6 @@
 [submodule "moon"]
 	path = moon
 	url = https://github.com/bramses/moon
+[submodule "chatgpt-export"]
+	path = chatgpt-export
+	url = https://github.com/bramses/chatgpt-export.git
