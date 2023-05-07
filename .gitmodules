@@ -31,3 +31,6 @@
 [submodule "query-zettel-embeddings-obsidian"]
 	path = query-zettel-embeddings-obsidian
 	url = https://github.com/bramses/query-zettel-embeddings.git
+[submodule "ytclip-10s"]
+	path = ytclip-10s
+	url = https://github.com/bramses/ytclip-10s.git
