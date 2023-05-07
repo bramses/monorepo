@@ -7,3 +7,6 @@
 [submodule "chatgpt-md"]
 	path = chatgpt-md
 	url = https://github.com/bramses/chatgpt-md.git
+[submodule "summarize-with-gpt3-obsidian"]
+	path = summarize-with-gpt3-obsidian
+	url = https://github.com/bramses/summarize-with-gpt3-obsidian.git
