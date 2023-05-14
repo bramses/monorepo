@@ -5,13 +5,14 @@ dotenv.load_dotenv()
 
 GH_USERNAME = os.getenv("GH_USERNAME")
 ROOT_DIR = os.getenv("ROOT_DIR")
+SKIP_DIRS = os.getenv("SKIP_DIRS")
 
 
 def find_readme_files(root_dir):
     readme_files = []
     for dirpath, dirnames, filenames in os.walk(root_dir):
         for filename in filenames:
-            if filename == 'README.md':
+            if filename == 'README.md' and dirpath not in SKIP_DIRS:
                 readme_files.append(os.path.join(dirpath, filename))
     return readme_files
 
