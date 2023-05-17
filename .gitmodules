@@ -40,3 +40,6 @@
 [submodule "spotify-recently-played-markdown-list"]
 	path = spotify-recently-played-markdown-list
 	url = https://github.com/bramses/spotify-recently-played-markdown-list
+[submodule "alfred-workflows"]
+	path = alfred-workflows
+	url = https://github.com/bramses/alfred-workflows.git
