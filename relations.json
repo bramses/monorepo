@@ -1,0 +1,16 @@
+{
+    "bramses-highly-opinionated-vault-2023": [
+        "chatgpt-export",
+        "chatgpt-md",
+        "obsidian-ghost-publish"
+    ],
+    "chatgpt-export": [
+        "chatgpt-md"
+    ],
+    "chatgpt-md": [
+        "chatgpt-export",
+        "obsidian-ghost-publish"
+    ],
+    "gpt-to-chatgpt-ts": [],
+    "gpt-to-chatgpt-py": []
+}
