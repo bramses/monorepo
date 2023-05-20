@@ -43,11 +43,3 @@
 [submodule "alfred-workflows"]
 	path = alfred-workflows
 	url = https://github.com/bramses/alfred-workflows.git
-[submodule "gpt-to-chatgpt-ts"]
-	path = gpt-to-chatgpt-ts
-	url = https://github.com/bramses/gpt-to-chatgpt-ts
-[submodule "gpt-to-chatgpt-py"]
-	path = gpt-to-chatgpt-py
-	url = https://github.com/bramses/gpt-to-chatgpt-py
-[submodule "gpt-to-chatgpt-ts/"]
-	url = https://github.com/bramses/gpt-to-chatgpt-ts.git
