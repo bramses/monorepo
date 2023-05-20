@@ -51,6 +51,7 @@ def add_submodule(github_link):
     if os.path.isdir(ROOT_DIR + "/" + submodule_name):
         raise ValueError("Submodule already exists")
 
+
     # add submodule to monorepo -- run from root directory
     os.chdir(ROOT_DIR)
 
@@ -87,3 +88,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# todo: did git changes work
