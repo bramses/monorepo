@@ -1,9 +1,0 @@
-{
-  "commands": [
-    {
-      "command": "{user_prompt} {file_picker}",
-      "name": "custom + file picker",
-      "description": "custom command with file picker"
-    }
-  ]
-}
