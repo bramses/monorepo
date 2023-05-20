@@ -51,11 +51,13 @@ def add_submodule(github_link):
     if os.path.isdir(ROOT_DIR + "/" + submodule_name):
         raise ValueError("Submodule already exists")
 
+    # add submodule to monorepo -- run from root directory
+    os.chdir(ROOT_DIR)
+
     p = Popen(["git", "submodule", "add", github_link])
 
-    # p = Popen(["pwd"])
-
     p.wait()
+
 
     # return name of github repo
     return github_link.split("/")[-1]
