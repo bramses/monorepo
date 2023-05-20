@@ -8,16 +8,16 @@
 	path = chatgpt-md
 	url = https://github.com/bramses/chatgpt-md.git
 [submodule "summarize-with-gpt3-obsidian"]
-	path = summarize-with-gpt3-obsidian
+	path = _archive/summarize-with-gpt3-obsidian
 	url = https://github.com/bramses/summarize-with-gpt3-obsidian.git
 [submodule "moon"]
-	path = moon
+	path = _archive/moon
 	url = https://github.com/bramses/moon
 [submodule "chatgpt-export"]
 	path = chatgpt-export
 	url = https://github.com/bramses/chatgpt-export.git
 [submodule "eleven-labs-obsidian"]
-	path = eleven-labs-obsidian
+	path = _archive/eleven-labs-obsidian
 	url = https://github.com/bramses/eleven-labs-obsidian.git
 [submodule "switchboard"]
 	path = switchboard
@@ -29,16 +29,16 @@
 	path = youtube-assets-from-video
 	url = https://github.com/bramses/youtube-assets-from-video.git
 [submodule "query-zettel-embeddings-obsidian"]
-	path = query-zettel-embeddings-obsidian
+	path = _archive/query-zettel-embeddings-obsidian
 	url = https://github.com/bramses/query-zettel-embeddings.git
 [submodule "ytclip-10s"]
-	path = ytclip-10s
+	path = _archive/ytclip-10s
 	url = https://github.com/bramses/ytclip-10s.git
 [submodule "process-notes-alfred"]
 	path = process-notes-alfred
 	url = https://github.com/bramses/process-notes-alfred.git
 [submodule "spotify-recently-played-markdown-list"]
-	path = spotify-recently-played-markdown-list
+	path = _archive/spotify-recently-played-markdown-list
 	url = https://github.com/bramses/spotify-recently-played-markdown-list
 [submodule "alfred-workflows"]
 	path = alfred-workflows
