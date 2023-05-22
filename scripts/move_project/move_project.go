@@ -71,4 +71,4 @@ func main() {
 // TODO: work from root directory of monorepo
 // TODO: only show directories
 // TODO: when chosen, ask to move to root directory of monorepo or archive
-// TODO: run git mv <file> <new location>
+// TODO: run git mv <directory> <new location>

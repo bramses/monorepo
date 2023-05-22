@@ -224,6 +224,7 @@ func IsHidden(file string) (bool, error) {
 
 // Init initializes the file picker model.
 func (m Model) Init() tea.Cmd {
+	println(m.Path)
 	return readDir(m.CurrentDirectory, m.ShowHidden)
 }
 
@@ -455,6 +456,7 @@ func (m Model) didSelectFile(msg tea.Msg) (bool, string) {
 				break
 			}
 			if info.IsDir() {
+				println("is dir")
 				isDir = true
 			}
 		}
