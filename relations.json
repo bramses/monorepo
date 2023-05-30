@@ -12,5 +12,9 @@
         "obsidian-ghost-publish"
     ],
     "gpt-to-chatgpt-ts": [],
-    "gpt-to-chatgpt-py": []
+    "gpt-to-chatgpt-py": [],
+    "obsidian-ghost-publish": [
+        "chatgpt-md"
+    ],
+    "alfred-workflows": []
 }

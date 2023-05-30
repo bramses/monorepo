@@ -24,11 +24,7 @@ This is a graph of the relationships between the README.md files in the monorepo
 """
 
 
-relations = {
-    "bramses-highly-opinionated-vault-2023": ["chatgpt-export", "chatgpt-md", "obsidian-ghost-publish"],
-    "chatgpt-export": ["chatgpt-md"],
-    "chatgpt-md": ["chatgpt-export", "obsidian-ghost-publish"],
-}
+
 
 def generate_relationship_graph(relations):
     '''
@@ -38,6 +34,8 @@ def generate_relationship_graph(relations):
     for key, values in relations.items():
         for value in values:
             graph += f"    {key} --> {value}\n"
+        if len(values) == 0:
+            graph += f"    {key}\n"
     graph += "```"
     return graph
 
@@ -115,6 +113,13 @@ with open("readme_summary.md", "w") as md_file:
     md_file.write("\n\n")
     md_file.write(RELATIONSHIP_GRAPH)
     md_file.write("\n\n")
-    md_file.write(generate_relationship_graph(relations))
+    
+
+    # read in the relations.json from the root directory
+
+    with open(os.path.join(root_directory, "relations.json"), "r") as f:
+        relations = json.load(f)
+
+    md_file.write(generate_relationship_graph(relations=relations))
     md_file.write("\n\n")
     md_file.write("\n\n".join(md_content))

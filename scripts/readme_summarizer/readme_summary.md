@@ -60,6 +60,10 @@ graph LR
     chatgpt-export --> chatgpt-md
     chatgpt-md --> chatgpt-export
     chatgpt-md --> obsidian-ghost-publish
+    gpt-to-chatgpt-ts
+    gpt-to-chatgpt-py
+    obsidian-ghost-publish --> chatgpt-md
+    alfred-workflows
 ```
 
 ## bramses-highly-opinionated-vault-2023
