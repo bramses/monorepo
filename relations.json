@@ -37,5 +37,25 @@
     ],
     "switchboard": [
         "chatgpt-export"
+    ],
+    "summarize-with-gpt3-obsidian": [
+        "bramses-highly-opinionated-vault-2023",
+        "obsidian-ghost-publish"
+    ],
+    "query-zettel-embeddings-obsidian": [
+        "bramses-highly-opinionated-vault-2023",
+        "obsidian-ghost-publish"
+    ],
+    "moon": [
+        "alfred-workflows"
+    ],
+    "eleven-labs-obsidian": [
+        "bramses-highly-opinionated-vault-2023",
+        "obsidian-ghost-publish"
+    ],
+    "ytclip-10s": [
+        "obsidian-ghost-publish",
+        "youtube-assets-from-video",
+        "alfred-workflows"
     ]
 }

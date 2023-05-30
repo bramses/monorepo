@@ -14,7 +14,7 @@
 	path = _archive/moon
 	url = https://github.com/bramses/moon
 [submodule "chatgpt-export"]
-	path = chatgpt-export
+	path = _archive/chatgpt-export
 	url = https://github.com/bramses/chatgpt-export.git
 [submodule "eleven-labs-obsidian"]
 	path = _archive/eleven-labs-obsidian
