@@ -60,10 +60,17 @@ graph LR
     chatgpt-export --> chatgpt-md
     chatgpt-md --> chatgpt-export
     chatgpt-md --> obsidian-ghost-publish
-    gpt-to-chatgpt-ts
-    gpt-to-chatgpt-py
+    gpt-to-chatgpt-ts --> gpt-to-chatgpt-py
+    gpt-to-chatgpt-py --> gpt-to-chatgpt-ts
     obsidian-ghost-publish --> chatgpt-md
-    alfred-workflows
+    obsidian-ghost-publish --> bramses-highly-opinionated-vault-2023
+    alfred-workflows --> bramses-highly-opinionated-vault-2023
+    alfred-workflows --> obsidian-ghost-publish
+    youtube-assets-from-video --> obsidian-ghost-publish
+    i-aint-reading-all-that --> bramses-highly-opinionated-vault-2023
+    i-aint-reading-all-that --> obsidian-ghost-publish
+    process-notes-alfred --> bramses-highly-opinionated-vault-2023
+    switchboard --> chatgpt-export
 ```
 
 ## bramses-highly-opinionated-vault-2023

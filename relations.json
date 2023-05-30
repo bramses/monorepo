@@ -11,10 +11,31 @@
         "chatgpt-export",
         "obsidian-ghost-publish"
     ],
-    "gpt-to-chatgpt-ts": [],
-    "gpt-to-chatgpt-py": [],
-    "obsidian-ghost-publish": [
-        "chatgpt-md"
+    "gpt-to-chatgpt-ts": [
+        "gpt-to-chatgpt-py"
     ],
-    "alfred-workflows": []
+    "gpt-to-chatgpt-py": [
+        "gpt-to-chatgpt-ts"
+    ],
+    "obsidian-ghost-publish": [
+        "chatgpt-md",
+        "bramses-highly-opinionated-vault-2023"
+    ],
+    "alfred-workflows": [
+        "bramses-highly-opinionated-vault-2023",
+        "obsidian-ghost-publish"
+    ],
+    "youtube-assets-from-video": [
+        "obsidian-ghost-publish"
+    ],
+    "i-aint-reading-all-that": [
+        "bramses-highly-opinionated-vault-2023",
+        "obsidian-ghost-publish"
+    ],
+    "process-notes-alfred": [
+        "bramses-highly-opinionated-vault-2023"
+    ],
+    "switchboard": [
+        "chatgpt-export"
+    ]
 }
