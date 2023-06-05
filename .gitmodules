@@ -49,3 +49,6 @@
 [submodule "gpt-to-chatgpt-py"]
 	path = _archive/gpt-to-chatgpt-py
 	url = https://github.com/bramses/gpt-to-chatgpt-py
+[submodule "weekly-digest-gpt"]
+	path = weekly-digest-gpt
+	url = https://github.com/bramses/weekly-digest-gpt
